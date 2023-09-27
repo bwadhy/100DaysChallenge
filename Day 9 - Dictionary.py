@@ -8,4 +8,8 @@ programming_dictionary = {
 #Observar a padronização de boas práticas de leitura. Identação , quebra de linha e vírgula separando.
 
 #Para consultar 👇🏻
-progr
+print(programming_dictionary["Bug"])
+
+#Para adicionar 👇🏻
+programming_dictionary["Server"] = "A powerful computer, used to host and share data. Servers also generally support a far greater quantity of memory than most desktop computers."
+print(programming_dictionary["Server"])

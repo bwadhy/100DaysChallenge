@@ -53,4 +53,37 @@ for student in student_scores:
 #Don't change the code below 👇
 print(student_grades)
 
+#Dicionario de apelidos (zueira)
+dicionário_comum = {
+    "Bruno": "Cabuloso",
+    "Calite": "Brabo",
+    "Betânia": "Betinha do meu coração",
+    "Thiago": "Thiaga Vit",
+    "Thais": "Zaíza",
+    "Carolina": "Kiss", 
+}
+
+dicionario_apelidos = {
+    {"nome": "Bruno", "Apelidos":["Brunex", "Bruneko", "Tirilo", "Pai", "Gostiozu"], "total_apelidos": 5},
+    {"nome": "Calite", "Apelidos": ["Calitex", "Zehoscar", "Ocara"], "total_apelidos": 3}
+}
+
+lista_apelidos = [
+    {"nome": "Bruno", "Apelidos":["Brunex", "Bruneko", "Tirilo", "Pai", "Gostiozu"], "total_apelidos": 5},
+    {"nome": "Calite", "Apelidos": ["Calitex", "Zehoscar", "Ocara"], "total_apelidos": 3}
+
+]
+#Podemos organizar assim tb: 
+lista_apelidos = [
+    {
+    "nome": "Bruno",
+    "Apelidos":["Brunex", "Bruneko", "Tirilo", "Pai", "Gostiozu"], 
+    "total_apelidos": 5
+    },
+    {
+    "nome": "Calite", 
+    "Apelidos": ["Calitex", "Zehoscar", "Ocara"], 
+    "total_apelidos": 3
+    },
+]
 
